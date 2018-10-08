@@ -21,11 +21,3 @@ public:
     }
 };
 
-int main()
-{
-	Solution s;
-	vector<int> A(3, 5);
-	A[0] = -1, A[1] = -2; A[2] = -3;
-	int res = s.maxSubarraySumCircular(A);
-	cout << "res == " << res << endl;
-}
